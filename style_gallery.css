@@ -12,20 +12,17 @@
 	width:92%;
 	margin:auto;
 }
-.gallery-box{
+.gallery-container img{
 	display:inline-block;
 	width:20vw;
-	margin:1%;
-}
-.gallery-box img{
-	width:20vw;
 	height:20vw;
+	margin: 1%;
 	object-fit:cover;
 	position:center;
 	box-shadow:6px 7px 8px rgba(0, 0, 0, .3);
 	border-radius:10%;	
 	cursor:pointer;
 }
-.gallery-box img:hover{
+.gallery-container img:hover{
 	opacity:.8;
 }
