@@ -1,0 +1,369 @@
+body{
+	/*font-family: Baskerville Old Face;
+	font-size:20px;
+	line-height:1.0;
+	*/
+	font:15px/1.0/Arial;
+	padding:0;
+	margin:0;
+	color:grey;
+	background-color:#fcfcfc;
+}
+														/* Global */
+.container{		
+	width:95%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	cursor:pointer;
+}
+.inline-block{
+	display:inline-block;
+	width:44%;
+	}
+.heading3{
+	font-family:Algerian;
+	font-size:50px;
+	margin:5px 100px 0 0;
+	color:grey;
+	padding-left:10px;
+}
+
+.heading4{
+	background-color:#5c5c8a;
+	font-family:Baskerville Old Face;
+	text-transform:uppercase;
+	font-size:40px;
+	margin:5px 0 0 0;
+	color:#c2c2d6;
+	padding-left:10px;
+	text-align:center;
+}
+
+.dcrust img{
+	width:100%;
+}
+.branding{
+	width:9.5%;
+	display:inline-block;
+
+	margin-left:8%;
+}
+.dcrust{
+	display:inline-block;
+	width:23.5%;
+	margin-left:13%;
+	
+}
+.branding img{
+	width:100%;
+}
+.header{
+	width:100%;
+	background-color:white;
+}
+
+
+
+											/*-----------------------------------------*/
+														
+														
+														/* newsletter button */
+
+.button_1{
+	height:26px;
+	background-color:#e8491d;
+	color:#ffffff;
+}
+
+.button_1:hover{
+	height:28px;
+	color:#ffffff;
+	font-weight:bold;
+	background-color:#e8491d;
+}
+
+														/* Contact form button */
+
+.button_2{
+	height:26px;
+	background-color:#a3a3c2;
+	color:#ffffff;
+	font-size:16px;
+	margin:5px 0 5px 170px;
+}
+.button_2:hover{
+	height:27px;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:16px;
+	background-color:#a3a3c2;
+}
+
+														/* Show more gallery button */
+
+.button_4{
+	height:35px;
+	margin:0 0 50px 450px;
+	border:green 2px solid;
+	font-weight:bold;
+}
+											/*-----------------------------------------*/
+
+															/* Header*/
+	
+
+															
+
+
+
+
+														/* Navigator */
+
+
+														
+.nav{
+	
+	width:35%;
+	margin:0 0 1% 5%;
+	display:inline-block;
+	
+}
+.nav a{
+	float:left;
+	font-family:arial;
+	text-decoration:none;
+	color:grey;
+	padding:0 6px 0 6px;
+	font-size:100%;
+}	
+.nav .fa{
+	font-size:120%;
+	margin:-8px 0 -10px;
+}
+.nav a:hover{
+		color:black;
+}			
+
+.nav .icon{
+	display:none;
+}										
+																												
+
+															/* Side Navigator */
+.side-nav a{
+	 position: absolute;
+	 position:fixed;
+	 top:130px;
+    left:-130px;
+    transition: 0.3s;
+    padding: 10px;
+	width:158px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 0 5px 5px 0;
+}
+.side-nav a:hover{
+	left:0px;
+	box-shadow:5px 6px 7px rgba(0, 0, 0, .3);
+}
+
+.side-nav .fa{
+	font-size:22px;
+	margin-top:-2px;
+	margin-bottom:-8px;
+	padding:0px;
+}
+
+
+.project{
+	margin-top:80px;
+	background-color:#00b300;
+}
+.wof{
+	margin-top:135px;
+	background-color:#9966ff;
+}
+.startup{
+	margin-top:190px;
+	background-color:#ff1a1a;
+}
+.ask{
+	margin-top:245px;
+	background-color:#00bfff;
+}
+
+
+															/* social bar */
+.social-bar a{
+	position:absolute;
+	position:fixed;
+	font-size:25px;
+	margin-left:96%;
+}
+
+.fa{
+  padding:8px 0px 8px 0px;	
+  width:40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 20%;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+.fa-facebook{
+	margin-top:40px;
+	background-color: #3B5998;
+	color:white;
+}
+
+.fa-instagram{
+	margin-top:95px;
+	background-color:#55ACEE;
+	color:white;
+}
+.fa-youtube{
+	margin-top:150px;
+	background-color:#bb0000;
+	color:white;
+}
+															
+	
+
+															/************************/
+
+
+
+															/* newsletter*/
+			
+#newsletter{
+	background-color:#5c5c8a;
+}
+
+#newsletter p{
+	float:left;
+	font-family:arial;
+	font-size:25px;
+	font-weight:bold;
+	margin-top:7px;
+	margin-bottom:7px;
+	color:#c2c2d6;
+	
+}
+#newsletter form{
+	margin-top:7px;
+	float:right;
+	margin-right:20px;
+}
+
+#newsletter input[type="email"] {
+	padding:2px 3px 3px 0;
+	height:20px;
+	width:250px;
+	padding-left:4px;
+}
+													/*************footer*******************/
+
+
+footer {
+	background-color:#47476b;
+	color:#ffffff;
+	font-family:arial;
+	font-size:20px;
+	padding-bottom:5px;
+	margin-bottom:0px;
+	
+	
+}
+
+#contact .box{
+	border:#4d4d33 1px solid;
+	width:420px;
+	margin-bottom:0px;
+	}
+
+#contact input[type="name1"], #contact input[type="name2"], #contact input[type="email"], #contact input[type="subject"], #contact input[type="message"]{
+	width:200px;
+	height:30px;
+	padding:2px 0 0 4px;
+	margin:0 3px 0 0;
+	color:#ffffff;
+	background-color:#47476b;
+	border:0;
+	border-bottom:#4d4d33 2px solid;
+	font-size:16px;	
+}
+#contact input[type="message"]{
+	padding:0 100px 60px 4px;
+}
+.copyright {
+	margin:0 0 0 0;
+	background-color:#000000;
+	font-size:12px;
+	text-align:center;
+	padding:10px 0 10px 0; 
+}
+
+@media screen and (max-width: 940px){
+	.dcrust{
+	display:none;
+	}
+	.nav{
+		width:45%;
+		margin-left:25%;
+	}
+	.branding{
+		margin-left:15%;
+	}
+	.branding img{
+		width:120%;
+	}
+}
+@media screen and (max-width: 740px){
+	.branding{
+	margin-left:1%;
+	}
+	.nav a{
+		display:none;
+	}
+	.nav a.icon{
+		float:right;
+		display:block;
+	}
+	
+	.branding img{
+		width:90px;
+	}
+	
+	.nav.responsive {
+		position: fixed;
+		color:black;
+		background-color:white;  
+		opacity:1;
+		overflow:hidden;
+		width:100px;
+		float:right;
+	}
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float:none;
+	
+    display: block;
+    text-align: left;
+  }
+	
+
+}
