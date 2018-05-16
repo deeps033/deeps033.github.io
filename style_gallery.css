@@ -14,8 +14,8 @@
 }
 .gallery-container img{
 	display:inline-block;
-	width:20vw;
-	height:20vw;
+	width:2vw;
+	height:2vw;
 	margin: 1%;
 	object-fit:cover;
 	position:center;
