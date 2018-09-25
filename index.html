@@ -169,9 +169,10 @@
       </footer>
    <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="particles.js"></script>
   
+  <script src="particles.js"></script>
      <script src="app.js"></script> 
+
       <script type="text/javascript">var count = new Date("oct 11,2018 09:00:00").getTime();var x = setInterval(function() {var now = new Date().getTime();var d = count - now;var days = Math.floor(d/(1000*60*60*24));var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));var minutes = Math.floor((d%(1000*60*60))/(1000*60));var seconds = Math.floor((d%(1000*60))/1000);document.getElementById("days").innerHTML = days;document.getElementById("hours").innerHTML = hours;document.getElementById("minutes").innerHTML = minutes;document.getElementById("seconds").innerHTML = seconds;if(d <= 0){clearInterval(x);}},1000);/**$(document).ready(function(){$('.delay1').hide(); $('.delay1').delay(1000).fadeIn(1000);$('.delay2').hide();$('.delay2').delay(1500).fadeIn(1000);});**/ $(document).ready(function(){$("a").on('click', function(event) {if (this.hash !== "") {event.preventDefault();var hash = this.hash;$('html, body').animate({scrollTop: $(hash).offset().top}, 800, function(){window.location.hash = hash;});}});});
       </script>
 
