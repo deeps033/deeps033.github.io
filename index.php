@@ -2,7 +2,7 @@
 <html lang=en>
 <head>
 <meta charset=UTF-8>
-<meta content=’width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0′ name=’viewport’ />
+<meta content=width=device-width, initial-scale=1.0>
 <title>CAMPUSSQUARES - RHYTHM - CULTURAL FEST</title>
 <link rel="shortcut icon" href=dcrust.ico>
 <link rel=stylesheet type=text/css href=style.css>
@@ -26,10 +26,12 @@
 <a href=#portfolio>Portfolio</a>
 <a href=#contact>Query</a>
 </div>
+
 <div>
   <div >
     <a href="javascript:void(0)"  onclick="openNav()" class="open-nav" >&#9776;</a>
   </div>
+
 </div>
 </div>
 <div class=container>
