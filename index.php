@@ -19,6 +19,15 @@
 <div class=dcrust-logo>
 <img src=dcrust-logo_compressed.jpg>
 </div>
+<script type="text/javascript">
+  function openNav() {
+    document.getElementById ("nav").style.width = "100%";
+    //document.getElementsByClassName("close-btn")[0].style.border="none";
+}
+function closeNav() {
+    document.getElementById("nav").style.width = "0";
+}
+</script>
 <div class=nav id="nav">
 <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
 <a href=index.php>Home</a>
@@ -146,15 +155,7 @@ SECONDS
 <script src=https://code.jquery.com/jquery-3.3.1.min.js></script>
 <script src=particles.js></script>
 <script src=app.js></script>
-<script type="text/javascript">
-  function openNav() {
-    document.getElementById ("nav").style.width = "100%";
-    //document.getElementsByClassName("close-btn")[0].style.border="none";
-}
-function closeNav() {
-    document.getElementById("nav").style.width = "0";
-}
-</script>
+
 <script type=text/javascript>var count=new Date("oct 11,2018 09:00:00").getTime();var x=setInterval(function(){var b=new Date().getTime();var f=count-b;var g=Math.floor(f/(1000*60*60*24));var a=Math.floor((f%(1000*60*60*24))/(1000*60*60));var c=Math.floor((f%(1000*60*60))/(1000*60));var e=Math.floor((f%(1000*60))/1000);document.getElementById("days").innerHTML=g;document.getElementById("hours").innerHTML=a;document.getElementById("minutes").innerHTML=c;document.getElementById("seconds").innerHTML=e;if(f<=0){clearInterval(x)}},1000);$(document).ready(function(){$("a").on("click",function(a){if(this.hash!==""){a.preventDefault();var b=this.hash;$("html, body").animate({scrollTop:$(b).offset().top},800,function(){window.location.hash=b})}})});</script>
 </body>
 </html>
